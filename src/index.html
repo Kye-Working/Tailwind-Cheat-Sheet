@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <meta http-equiv="refresh" content="10" />
   </head>
   <body class="bg-gray-900">
-    <div>
+    <div class="">
       <hr />
       <h1 class="heading">Fonts & Colours</h1>
-      <p
-        class="ml-10 mt-5 mb-5 w-2/5 text-blue-300 font-mono font-bold uppercase"
-      >
+      <p class="spacing w-2/5 text-blue-300 font-mono font-bold uppercase">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
         voluptatibus autem libero reprehenderit assumenda, nam illum
         necessitatibus ad asperiores, facere eveniet voluptates delectus sequi
@@ -23,7 +22,7 @@
       <br />
       <!-- m(direction)-num : margin | w : width | border-(direction/size) : borders | p(direction)-(num) : padding --->
       <p
-        class="ml-10 mb-5 w-1/5 border-2 p-5 rounded-xl border-gray-400 text-amber-700"
+        class="spacing w-1/5 border-2 p-5 rounded-xl border-gray-400 text-amber-700"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem
         necessitatibus laboriosam rem esse blanditiis possimus praesentium
@@ -34,7 +33,7 @@
 
       <h1 class="heading">Flexbox</h1>
       <!-- flex-(direction) : flexbox-->
-      <div class="ml-10 mt-5 mb-5 flex justify-left text-yellow-100">
+      <div class="spacing flex justify-left text-yellow-100">
         <a href="" class="ml-2">Home</a>
         <a href="" class="ml-2">Info</a>
         <a href="" class="ml-2">Contact</a>
@@ -44,7 +43,7 @@
       <h1 class="heading">Responsive classes</h1>
       <!--Changes depending on size of page (Sizes : bg/sm/md/lg/xl)-->
       <div
-        class="ml-10 mt-5 mb-5 border-solid w-20 h-20 text-center rounded-lg shadow bg-slate-100 sm:bg-cyan-400 md:bg-green-400 lg:bg-pink-500 xl:bg-purple-800"
+        class="spacing border-solid w-20 h-20 text-center rounded-lg shadow bg-slate-100 sm:bg-cyan-400 md:bg-green-400 lg:bg-pink-500 xl:bg-purple-800"
       >
         BOX
       </div>
@@ -52,13 +51,50 @@
 
       <!-- In CSS document .X {@apply (properties)} -->>
       <h1 class="heading">Apply directive</h1>
-      <p class="ml-10 mt-5 mb-5 text-red-600">
+      <p class="spacing text-red-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
       <p class="CSS-APPLY">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
+      <hr />
 
+      <h1 class="heading">Grids</h1>
+      <div class="spacing grid grid-cols-3">
+        <div class="text-blue-500 border w-1/3">
+          <img src="/src/extras/IMG.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+            impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            quas asperiores quidem veniam. Quas hic vero autem magnam ex
+            laboriosam debitis dolorem voluptatum nihil! Ullam libero minima ab
+            molestiae ut.
+          </p>
+        </div>
+        <div class="text-orange-500 border w-1/3">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
+            exercitationem! Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Sunt harum unde placeat dolorum molestias nesciunt ipsa quod
+            tenetur, rerum est expedita quia, laborum accusantium nam qui
+            officiis impedit. Qui, numquam!
+          </p>
+          <img src="/src/extras/IMG.png" alt="" />
+        </div>
+        <div class="text-fuchsia-500 border w-1/2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+            ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Adipisci sed ea at quos ab ipsa nemo dolores aspernatur! Suscipit
+            numquam tenetur asperiores cum velit sed explicabo, tempore modi
+            nemo maiores!
+          </p>
+          <img src="/src/extras/IMG.png" alt="" />
+          <hr />
+
+          <h1 class="heading"></h1>
+        </div>
+      </div>
       <hr />
     </div>
   </body>

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading {
+  @apply ml-10 mt-5 underline text-3xl text-yellow-400;
+}
+
+.CSS-APPLY {
+  @apply ml-10 mt-5 mb-5 text-green-600;
+}
